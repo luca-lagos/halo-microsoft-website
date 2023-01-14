@@ -5,8 +5,17 @@ const mobile_menu = document.querySelector(".links");
 const more_menu = document.querySelector(".more .menu");
 const mobile_overlay = document.querySelector(".overlay");
 
+const body = document.querySelector("body");
+
+window.addEventListener("mouseup", (e) => {
+  if (more_menu.classList.contains("show")) {
+    more_menu.classList.remove("show");
+  }
+});
+
 b_show_mobile_links.addEventListener("click", (e) => {
   e.preventDefault();
+  body.classList.toggle("stop-scroll");
   if (b_mobile_icon.innerHTML === "menu") {
     b_mobile_icon.innerText = "close";
   } else {

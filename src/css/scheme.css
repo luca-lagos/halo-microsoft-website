@@ -1,0 +1,100 @@
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+  }
+
+  header {
+    background-image: url(../images/halo-infinite-cover.jpeg);
+  }
+
+  nav {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  nav ul li > a {
+    color: black;
+  }
+
+  nav ul li .link::before {
+    background-color: black;
+  }
+
+  nav .mobile .header {
+    background-color: white;
+  }
+
+  nav .mobile .header a {
+    color: black;
+  }
+
+  nav .mobile .header #b-menu {
+    color: black;
+  }
+
+  nav .mobile .overlay {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  nav .mobile .links a {
+    color: black;
+  }
+
+  nav .mobile .links a:hover {
+    color: white;
+    background-color: black;
+  }
+
+  #banner {
+    color: black;
+    background-color: white;
+  }
+
+  #videos {
+    color: black;
+  }
+
+  .disable {
+    background-color: rgb(73, 73, 73) !important;
+    opacity: 0.7 !important;
+  }
+
+  .disable:hover {
+    background-color: rgb(73, 73, 73) !important;
+    opacity: 0.7 !important;
+  }
+
+  #videos #slider #videos-container .item a::before{
+    background-color: white;
+    color: black;
+  }
+
+  h2,
+  h3,
+  h4,
+  p {
+    color: black;
+  }
+
+  h2::before {
+    background-color: #8cd320;
+  }
+
+  .green-button {
+    background-color: #8cd320;
+  }
+
+  .green-link {
+    color: #8cd320;
+  }
+
+  #multiplayer h2, #multiplayer p{
+    color: white;
+  }
+
+  footer{
+    background-image: url(../images/master-chief.jpg);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+}
