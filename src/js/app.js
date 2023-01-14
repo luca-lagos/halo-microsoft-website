@@ -1,3 +1,6 @@
+import "../css/app.css";
+import "../css/scheme.css";
+
 const more_options = document.querySelector("#b-more");
 const b_show_mobile_links = document.querySelector("#b-menu");
 const b_mobile_icon = document.querySelector("#b-menu span");
